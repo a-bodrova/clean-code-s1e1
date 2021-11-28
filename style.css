@@ -126,18 +126,18 @@ button {
   vertical-align: middle;
 }
 
-.tasks-list__item > .tasks-list__item__checkmark {
+.tasks-list__item .tasks-list__item__checkmark {
   margin: 0 10px;
 }
 
-.tasks-list__item > .tasks-list__label {
+.tasks-list__item .tasks-list__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-.tasks-list__item >    .task__input {
+.tasks-list__item .task__input {
   width: 226px;
 }
 
@@ -158,7 +158,7 @@ button {
 }
 
 /* Edit Task */
-.tasks-list > .tasks-list__item > .task__input {
+.tasks-list .tasks-list__item .task__input {
   display: none;
 }
 
