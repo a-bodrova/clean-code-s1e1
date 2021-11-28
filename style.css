@@ -16,7 +16,7 @@
   width: 100%;
 }
 
-.header .more-inf {
+.header .header_link {
   font-family: fantasy, cursive;
 }
 
@@ -40,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.tasks-list__row-wrapper {
   display: flex;
 }
 
@@ -74,8 +74,7 @@ button {
 }
 
 /* Heading */
-.tasks-list__title,
-.adding-element__lbl {
+.tasks-list__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -103,7 +102,7 @@ button {
 }
 
 /* New Task */
-.adding-element__lbl {
+.tasks-list__title_add {
   display: block;
   margin: 0 0 20px;
 }

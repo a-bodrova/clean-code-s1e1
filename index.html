@@ -8,17 +8,17 @@
   <body class="body">
     <header class="header">
       <img src="./eisenhower-matrix.jpg" class="header_image" alt="Eisenhower matrix image">
-      <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+      <a class="header_link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="main">
-      <section>
-        <h3 class="adding-element__lbl">Add Item</h3>
-        <div class="task-row-wrapper">
+      <section class="tasks">
+        <h3 class="tasks-list__title tasks-list__title_add">Add Item</h3>
+        <div class="tasks-list__row-wrapper">
           <input id="new-task" class="task task__input" type="text">
           <button class="new-task__button button">Add</button>
         </div>
       </section>
-      <section>
+      <section class="tasks">
         <h3 class="tasks-list__title">Todo</h3>
         <ul id="incomplete-tasks" class="tasks-list tasks-list_incompleted">
           <li class="tasks-list__item">
@@ -41,7 +41,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="tasks">
         <h3 class="tasks-list__title">Completed</h3>
         <ul id="completed-tasks"  class="tasks-list tasks-list_completed">
           <li class="tasks-list__item">
