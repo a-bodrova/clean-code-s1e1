@@ -37,7 +37,7 @@
 .list__item__label {
     width: 56%;
     display: inline-block;
-    flex-grow: 1
+    flex-grow: 1;
 }
 
 .add-item__wrapper {
@@ -136,7 +136,7 @@ input,button{  /* сброс стилей */
 }
 
 .list__item >    .item__input {
-    width: 226px
+    width: 226px;
 }
 
 .delete__image {
@@ -151,18 +151,18 @@ input,button{  /* сброс стилей */
 
 /* Completed */
 .completed-tasks .list__item__label {
-    text-decoration: line-through
+    text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
 .list__item .item__input {
-    display: none
+    display: none;
 }
 
 .edit-mode .item__input {
     display: inline-block;
-    width: 224px
+    width: 224px;
 }
 
 .edit-mode .list__item__label {
