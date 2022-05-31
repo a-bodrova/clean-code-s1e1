@@ -45,16 +45,16 @@
 }
 
 ul {  /* сброс стилей */
-    margin:0;
+    margin: 0;
     padding: 0px;
 } 
 
 li, h3 {  /* сброс стилей */
-    list-style:none;
+    list-style: none;
 }
 
 input,button{  /* сброс стилей */
-    outline:none;
+    outline: none;
 }
 
 .btn {
@@ -157,14 +157,14 @@ input,button{  /* сброс стилей */
 
 /* Edit Task */
 .list__item .item__input {
-    display:none
+    display: none
 }
 
 .edit-mode .item__input {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .edit-mode .list__item__label {
-    display:none;
+    display: none;
 }
