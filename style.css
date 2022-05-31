@@ -123,7 +123,10 @@ button {  /* сброс стилей */
   align-items: center;
 }
 
-.list__item > * {  /* универсальный селектор не является теговым селектором */
+.list__item__checkbox,
+.list__item__label,
+.item__input,
+.btn {
   vertical-align: middle;
 }
 
