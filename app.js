@@ -22,7 +22,7 @@ var createNewTaskElement=function(taskString){
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
-    // checkBox.classList.add("");
+    checkBox.classList.add("list__item__checkbox");
     //label
     var label=document.createElement("label");//label
     label.classList.add("list__item__label");
