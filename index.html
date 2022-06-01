@@ -13,8 +13,8 @@
       </a>
     </header>
     <main class="main">
-      <section id="add-item">
-        <h3 class="item__title add-item__title">Add Item</h3>
+      <section class="add-item">
+        <h3 class="add-item__title">Add Item</h3>
         <div class="add-item__wrapper">
           <input
               id="new-task"
@@ -23,21 +23,21 @@
           <button class="btn btn__add">Add</button>
         </div>
       </section>
-      <section>
-        <h3 class="item__title">Todo</h3>
-        <ul class="tasks__list list">
-          <li class="list__item">
-            <input type="checkbox" class="list__item__checkbox">
-            <label class="list__item__label">Pay Bills</label>
+      <section class="incomplete-item">
+        <h3 class="incomplete-item__title">Todo</h3>
+        <ul class="incomplete-item__list list">
+          <li class="list__item item">
+            <input type="checkbox" class="item__checkbox">
+            <label class="item__label">Pay Bills</label>
             <input type="text" class="item__input">
             <button class="btn edit">Edit</button>
             <button class="btn delete">
               <img src="./remove.svg" class="delete__image" alt="delete button">
             </button>
           </li>
-          <li class="list__item edit-mode">
-            <input type="checkbox" class="list__item__checkbox">
-            <label class="list__item__label">Go Shopping</label>
+          <li class="list__item item edit-mode">
+            <input type="checkbox" class="item__checkbox">
+            <label class="item__label">Go Shopping</label>
             <input
                 type="text"
                 value="Go Shopping"
@@ -49,12 +49,12 @@
           </li>
         </ul>
     </section>
-    <section>
-      <h3 class="item__title">Completed</h3>
-      <ul class="tasks__list list completed-tasks">
-        <li class="list__item">
-          <input type="checkbox" class="list__item__checkbox" checked>
-          <label class="list__item__label">See the Doctor</label>
+    <section class="completed-item">
+      <h3 class="completed-item__title">Completed</h3>
+      <ul class="completed-item__list list">
+        <li class="list__item item">
+          <input type="checkbox" class="item__checkbox" checked>
+          <label class="item__label">See the Doctor</label>
           <input type="text" class="item__input">
           <button class="btn edit">Edit</button>
           <button class="btn delete">

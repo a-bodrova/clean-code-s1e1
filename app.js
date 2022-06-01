@@ -10,22 +10,22 @@
 
 var taskInput=document.getElementById("new-task");//Add a new task.
 var addButton=document.querySelector(".btn__add"); //first button
-var incompleteTaskHolder=document.querySelector(".tasks__list");//ul of #incompleteTasks
-var completedTasksHolder=document.querySelector(".completed-tasks");//completed-tasks
+var incompleteTaskHolder=document.querySelector(".list");//ul of #incompleteTasks
+var completedTasksHolder=document.querySelector(".completed-item__list");//completed-tasks
 
 
 //New task list item
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("li");
-    listItem.classList.add("list__item");
+    listItem.className = "list__item item";
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
-    checkBox.classList.add("list__item__checkbox");
+    checkBox.classList.add("item__checkbox");
     //label
     var label=document.createElement("label");//label
-    label.classList.add("list__item__label");
+    label.classList.add("item__label");
     //input (text)
     var editInput=document.createElement("input");//text
     editInput.classList.add("item__input");
